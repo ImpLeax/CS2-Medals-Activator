@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Environment files (credentials). Only the template is committed.
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE / editor
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,27 @@
+{
+  "name": "steam-medals-activator",
+  "version": "1.0.0",
+  "description": "CLI that signs into Steam, simulates a Counter-Strike 2 launch and idles on the Game Coordinator so eligible accounts receive their 5/10 Year Veteran Coins.",
+  "private": true,
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "steam",
+    "cs2",
+    "counter-strike",
+    "veteran-coin",
+    "steam-user"
+  ],
+  "author": "",
+  "license": "UNLICENSED",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20.12"
+  },
+  "dependencies": {
+    "globaloffensive": "^3.3.0",
+    "steam-user": "^5.3.0"
+  }
+}
